@@ -1,0 +1,161 @@
+
+
+*{margin: 0px;
+padding: 0px;
+text-decoration: none;
+
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Dosis', sans-serif;
+
+
+;}
+body{background-image: url(cubes.png)}
+
+#conteiner{ width: 85%; margin: 0px auto;
+height: 100 vh;
+
+}
+header{height: 160px;
+border-bottom:  2px solid black ;
+}
+
+#titulo{font-size: 50px;
+padding-top: 5px;
+text-transform: uppercase;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+text-shadow: 0px 0px 2px;
+letter-spacing: 5px;
+}
+
+#nav{margin-top: 30px;
+border: 1px solid rgb(172, 167, 167);
+border-radius: 10px;
+
+
+background: linear-gradient( rgb(240, 234, 234), #d8d9e2);}
+
+
+
+#nav ul li{ display: inline-block;
+    
+ border-right: 1px solid  rgb(172, 167, 167);
+padding: 10px;
+ letter-spacing: 4px;
+
+font-size: 20px;
+text-transform: uppercase;
+
+
+
+
+}
+
+#nav ul li a{ color: black;
+font-weight: bold;
+}
+
+#nav ul li a:hover{ color: rgb(70, 172, 70); }
+
+#medio{margin-top: 30px;
+}
+
+#aside{ float: left;
+width: 20%;
+height: 100vh;
+}
+
+#articulos{float: left
+    ;
+width: 75%;
+background-color: white;
+margin-right: 40px;
+box-shadow: 0px 0px 10px #cccccc;
+height: auto;
+min-height: 600px;
+}
+
+#articulos h2{ text-transform: uppercase;margin:15px;font-weight: bold; }
+
+#registrarte{ border: 1px solid rgb(228, 220, 220);
+display: flex;
+flex-direction: column;
+flex-wrap:nowrap;
+align-items: center;
+margin-top: 40px;
+height: auto;
+box-shadow: 0px 0px 10px #cccccc;
+background-color: white;
+min-height: 330px;;
+}
+
+
+#registrarte h3{ padding-bottom: 15px;
+padding-top: 5px;}
+
+input{width: 90%;
+margin-top: 5px;
+}
+
+form{width: 80%;}
+
+#sesion{border: 1px solid rgb(228, 220, 220);
+    box-shadow: 0px 0px 10px #cccccc;
+
+display: flex;
+flex-direction: column;
+flex-wrap:nowrap;
+align-items: center;
+min-height: 220px;
+height: auto;
+background-color: white;
+}
+
+#sesion h3{padding-bottom: 15px;
+    padding-top: 5px;}
+
+
+    #sesion span {
+
+        width: 80%;
+
+    }
+    #sesion span a{ 
+
+         
+        color: white;
+        background-color:black;
+height: 40px;        
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+
+.aritcle{ padding: 20px;
+;}
+
+.aritcle h2{color: blue;
+font-weight: bold;
+
+letter-spacing: 3px;
+text-transform: uppercase;
+text-shadow: 0px 0px 1px blue;
+margin-top: 10px;
+}
+
+.alert{color:blue;
+text-transform: uppercase;
+background-color: aqua;
+
+}
+
+#fecha{ color: rgb(138, 135, 135) ;
+margin-bottom: 12px;
+margin-top: 5px;
+}
